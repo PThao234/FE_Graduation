@@ -1,0 +1,306 @@
+@font-face {
+    font-family: Mulish;
+    src: url(../fonts/Mulish-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mulish-Light;
+    src: url(../fonts/Mulish-Light.ttf);
+}
+
+.text-left {
+    text-align: left;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+* {
+    font-family: Mulish;
+}
+
+.d-ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mb-3 {
+    margin-bottom: 3rem;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-img {
+    margin-bottom: 30px;
+
+}
+
+.banner-img img, .banner-inf img{
+    height: 460px;
+    width: 100%;
+}
+.owl-banner-item {
+    width: 48% !important;
+    position: relative;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 15px !important;
+    padding: 0px !important;
+    margin: 10px;
+    
+}
+.owl-banner-item img {
+    height: 300px;
+    width: 100%;
+    transform: scale(1);
+    transition: 0.5s ease;
+}
+
+.owl-banner-item:hover img{
+    transform: scale(1.1);
+}
+
+.owl-banner-content {
+    position: absolute;
+    top: 60px;
+} 
+
+.right {
+    right: 40px;
+ }
+
+.left {
+    left: 40px;
+}
+
+.owl-banner-content-start
+.owl-banner-content p{
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.owl-banner-content h5 {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.owl-banner-content span {
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.owl-banner-content a {
+    text-decoration: none;
+    color: #53a716;
+    font-size: 16px;
+}
+
+.product-hot, .product-best-seller,
+.product-new, .news {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.product-title span, .news-title span{
+    font-size: 22px;
+    font-family: Mulish-Light;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.product-title span::before,
+.news-title span::before {
+    margin-left: -30px;
+}
+
+.product-title span::after,
+.news-title span::after {
+    margin-left: 15px;
+}
+
+.product-title span::before,
+.product-title span::after,
+.news-title span::before,
+.news-title span::after {
+    content: "";
+    position: absolute;
+    border: 1px solid #53a716;
+    width: 15px;
+    display: inline;
+    margin-top: 15px;
+}
+
+.product-item {
+    width: 20% !important;
+    position: relative;
+   
+
+}
+
+.product-img {
+    height: 224px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+.product-img img {
+    width: 100%;
+    height: 224px;
+    width: 100%;
+    transform: scale(1);
+    transition: 0.5s ease;
+}
+
+.product-img:hover img{
+    transform: scale(1.1);
+}
+
+.product-item a {
+    text-decoration: none;
+    color: #000;
+    font-family: Mulish-Light;
+    font-weight: bold;
+}
+
+.product-item p {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.product-item .new {
+    color: #e70303;
+    font-family: Mulish;
+    font-size: 14px;
+}
+
+.product-item .old {
+    color: #888;
+    font-size: 14px;
+    font-family: Mulish;
+    padding-left: 10px;
+    text-decoration: line-through;
+}
+
+.sale-off {
+    background-color: #e70303;
+    padding:7px 5px;
+    position: absolute;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    font-family: Mulish-Light;
+    z-index: 3;
+    top: 0px;
+    left: 11px;
+}
+
+.sale-off::before {
+    content: "";
+    position: absolute;
+    border-top: 10px solid #e70303;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    right: 0px;
+    top: 32px;
+
+}
+
+.product-item .btn-cart {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #53a716;
+    color: #fff;
+    border-radius: 0px !important;
+    border: none;
+    padding: 10px 0px;
+    font-size: 14px;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.product-item:hover .btn-cart {
+    opacity: 1;
+}
+
+.one-banner img {
+    height: 385px;
+}
+
+.banner-inf {
+    position: relative;
+}
+
+.banner-inf-content {
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    text-align: center;
+    color: #000;
+}
+
+.banner-inf-title {
+    font-family: Mulish;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.banner-inf-subtitle {
+    font-size: 26px;
+    padding-bottom: 40px;
+}
+.product-link {
+    font-size: 15px;
+    display: inline;
+    padding: 10px 20px;
+    background-color: #53a716;
+}
+.product-link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.news img {
+    width: 260px;
+    height: 195px;
+    margin-bottom: 10px;
+}
+
+.date-submitted {
+    font-size: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid  #ccc;
+}
+
+.news-content {
+    padding: 10px 0px;
+}
+
+.blog-title {
+    font-family: Mulish-Light;
+    font-weight: bold;
+}
+
+.blog-desc {
+    font-size: 14px;
+    color: #474343;
+}
+
+.news a {
+    color: #53a716;
+    text-decoration: none;
+}
+
+.ti-angle-double-right {
+    font-size: 10px;
+}

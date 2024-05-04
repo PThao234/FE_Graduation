@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="plugin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugin/fontawesome-free-5.15.4-web.zip!/" />
+      <root url="jar://$PROJECT_DIR$/plugin/themify-icons-font.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
